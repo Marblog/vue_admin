@@ -1,0 +1,56 @@
+{
+  "name": "vue_admin",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "axios": "^0.21.0",
+    "core-js": "^3.8.1",
+    "element-ui": "^2.14.1",
+    "nuxt": "^2.14.11",
+    "postcss-px2rem": "^0.3.0",
+    "px2rem-loader": "^0.1.9",
+    "viser-vue": "^2.4.8",
+    "vue": "^2.6.12",
+    "vue-router": "^3.4.9"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.5.9",
+    "@vue/cli-plugin-eslint": "^5.0.0-alpha.0",
+    "@vue/cli-plugin-router": "^4.5.9",
+    "@vue/cli-service": "~4.5.9",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.15.0",
+    "eslint-plugin-vue": "^7.2.0",
+    "less": "^3.13.0",
+    "less-loader": "^7.1.0",
+    "node-sass": "^5.0.0",
+    "sass-loader": "^10.1.0",
+    "vue-cli-plugin-element": "^1.0.1",
+    "vue-particles": "^1.0.9",
+    "vue-template-compiler": "^2.6.12"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "babel-eslint"
+    },
+    "rules": {}
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}
