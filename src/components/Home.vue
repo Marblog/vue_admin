@@ -1,7 +1,7 @@
 <template>
   <el-container class="home-container">
 
-    <el-header>Header
+    <el-header>头部
       <div>
         <img src="../assets/logo.jpg" alt />
         <span>管理系统</span>
@@ -22,6 +22,7 @@
           <!-- 一级菜单  -->
           <el-submenu :index="item.id+''" v-for="item in menulist" :key="item.id">
             <!-- 一级菜单的模板区域 -->
+            <a href='Welcome.vue'></a>
             <template slot="title">
               <i :class="iconObj[item.id]"></i>
               <span>{{ item.authName }}</span>
